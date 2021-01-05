@@ -18,7 +18,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace SystrayExtension
+namespace TaskmanWindow
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.

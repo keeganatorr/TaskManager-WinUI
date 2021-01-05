@@ -7,8 +7,8 @@
     <ProjectGuid>{82EB7D3F-8948-4EED-9C98-F2FC2428A4F5}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SystrayExtension</RootNamespace>
-    <AssemblyName>SystrayExtension</AssemblyName>
+    <RootNamespace>TaskmanWindow</RootNamespace>
+    <AssemblyName>TaskmanWindow</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
@@ -119,8 +119,8 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="SystrayExtension_StoreKey.pfx" />
-    <None Include="SystrayExtension_TemporaryKey.pfx" />
+    <None Include="TaskmanWindow_StoreKey.pfx" />
+    <None Include="TaskmanWindow_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\background4.png" />
@@ -144,7 +144,7 @@
     <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Content Include="Win32\SystrayComponent.exe" />
+    <Content Include="Win32\Taskman.exe" />
     <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>

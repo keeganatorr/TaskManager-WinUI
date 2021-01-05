@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7EB81B54-E3D6-4945-B1DE-F75663CC3A7D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SystrayComponent</RootNamespace>
-    <AssemblyName>SystrayComponent</AssemblyName>
+    <RootNamespace>Taskman</RootNamespace>
+    <AssemblyName>Taskman</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -103,6 +103,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /y "$(TargetPath)" "$(SolutionDir)SystrayExtension\Win32\"</PostBuildEvent>
+    <PostBuildEvent>copy /y "$(TargetPath)" "$(SolutionDir)TaskmanWindow\Win32\"</PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace SystrayExtension
+namespace TaskmanWindow
 {
     public class OpenProcess
     {

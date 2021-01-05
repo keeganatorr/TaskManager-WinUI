@@ -10,7 +10,7 @@
 //********************************************************* 
 using System.Windows.Forms;
 
-namespace SystrayComponent
+namespace Taskman
 {
     public partial class Form1 : Form
     {

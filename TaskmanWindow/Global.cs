@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SystrayExtension
+namespace TaskmanWindow
 {
 	public static class Global
 	{

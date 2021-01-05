@@ -10,7 +10,7 @@
 //********************************************************* 
 using Windows.UI.Xaml.Controls;
 
-namespace SystrayExtension
+namespace TaskmanWindow
 {
     public enum CloseAction
     {

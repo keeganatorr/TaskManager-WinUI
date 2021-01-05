@@ -11,10 +11,10 @@
 //*********************************************************
 -->
 <Application
-    x:Class="SystrayExtension.App"
+    x:Class="TaskmanWindow.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:SystrayExtension"
+    xmlns:local="using:TaskmanWindow"
     RequestedTheme="Dark">
 
 </Application>

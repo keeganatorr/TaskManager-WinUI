@@ -25,7 +25,7 @@ using System.Text;
 using Utf8Json;
 using System.Drawing;
 
-namespace SystrayComponent
+namespace Taskman
 {
     class SystrayApplicationContext : ApplicationContext
     {
@@ -47,7 +47,7 @@ namespace SystrayComponent
 
             notifyIcon = new NotifyIcon();
             notifyIcon.Click += new EventHandler(OpenApp);
-            notifyIcon.Icon = SystrayComponent.Properties.Resources.Icon1;
+            notifyIcon.Icon = Taskman.Properties.Resources.Icon1;
             notifyIcon.ContextMenu = new ContextMenu(new MenuItem[]{ openMenuItem, sendMenuItem, legacyMenuItem, exitMenuItem });
             notifyIcon.Visible = true;
 
@@ -126,7 +126,7 @@ namespace SystrayComponent
                 {
                     //MessageBox.Show(path);
 
-                    Icon icon = SystrayComponent.Properties.Resources.Icon1;
+                    Icon icon = Taskman.Properties.Resources.Icon1;
                     try
                     {
                         icon = Icon.ExtractAssociatedIcon(path);
@@ -171,7 +171,7 @@ namespace SystrayComponent
             {
                 connection = new AppServiceConnection();
                 connection.PackageFamilyName = Package.Current.Id.FamilyName;
-                connection.AppServiceName = "SystrayExtensionService";
+                connection.AppServiceName = "TaskmanWindowService";
                 connection.RequestReceived += Connection_RequestReceived;
                 connection.ServiceClosed += Connection_ServiceClosed;
                 AppServiceConnectionStatus connectionStatus = await connection.OpenAsync();

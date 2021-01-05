@@ -55,7 +55,7 @@
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
     <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
-    <EntryPointProjectUniqueName>..\SystrayExtension\SystrayExtension.csproj</EntryPointProjectUniqueName>
+    <EntryPointProjectUniqueName>..\TaskmanWindow\TaskmanWindow.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -72,8 +72,8 @@
     <Content Include="Images\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SystrayComponent\SystrayComponent.csproj" />
-    <ProjectReference Include="..\SystrayExtension\SystrayExtension.csproj" />
+    <ProjectReference Include="..\Taskman\Taskman.csproj" />
+    <ProjectReference Include="..\TaskmanWindow\TaskmanWindow.csproj" />
   </ItemGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
 </Project>

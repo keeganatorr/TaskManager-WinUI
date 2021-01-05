@@ -11,7 +11,7 @@
 using Windows.UI.Notifications;
 using Windows.Data.Xml.Dom;
 
-namespace SystrayExtension
+namespace TaskmanWindow
 {
     public static class ToastHelper
     {

@@ -8,7 +8,7 @@
 // PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.  
 //  
 //********************************************************* 
-namespace SystrayComponent
+namespace Taskman
 {
     partial class Form1
     {

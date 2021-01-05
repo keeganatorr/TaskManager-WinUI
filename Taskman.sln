@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystrayExtension", "SystrayExtension\SystrayExtension.csproj", "{82EB7D3F-8948-4EED-9C98-F2FC2428A4F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskmanWindow", "TaskmanWindow\TaskmanWindow.csproj", "{82EB7D3F-8948-4EED-9C98-F2FC2428A4F5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7EB81B54-E3D6-4945-B1DE-F75663CC3A7D} = {7EB81B54-E3D6-4945-B1DE-F75663CC3A7D}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystrayComponent", "SystrayComponent\SystrayComponent.csproj", "{7EB81B54-E3D6-4945-B1DE-F75663CC3A7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taskman", "Taskman\Taskman.csproj", "{7EB81B54-E3D6-4945-B1DE-F75663CC3A7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

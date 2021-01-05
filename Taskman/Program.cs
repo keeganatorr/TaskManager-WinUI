@@ -12,7 +12,7 @@ using System;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace SystrayComponent
+namespace Taskman
 {
     static class Program
     {
@@ -23,9 +23,9 @@ namespace SystrayComponent
         static void Main()
         {
             Mutex mutex = null;
-            if (!Mutex.TryOpenExisting("MySystrayExtensionMutex", out mutex))
+            if (!Mutex.TryOpenExisting("MyTaskmanWindowMutex", out mutex))
             {
-                mutex = new Mutex(false, "MySystrayExtensionMutex");
+                mutex = new Mutex(false, "MyTaskmanWindowMutex");
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new SystrayApplicationContext());
